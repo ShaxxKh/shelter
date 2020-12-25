@@ -1,0 +1,14 @@
+.row {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1200px;
+}
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    width: 1280px;
+}

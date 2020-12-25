@@ -1,0 +1,12 @@
+:root {
+    --colorPrimary: #F1CDB3;
+    --colorDark: #545454;
+    --colorBackground: #F6F6F6;
+    --colorPrimaryDark: #CDCDCD;
+    --colorPrimaryLight: #FAFAFA;
+    --colorWhite: #FFFFFF;
+    --colorBlack: #000000;
+
+    --fontPrimary: Georgia, 'Times New Roman', Times, serif;
+    --fontSecondary: Arial, Helvetica, sans-serif;
+}

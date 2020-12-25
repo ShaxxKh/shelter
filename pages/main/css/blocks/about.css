@@ -1,0 +1,23 @@
+.about__row{
+    display: flex;
+}
+.about__illustration{
+    margin-left: 175px;
+    margin-right: 120px;
+    height: 408px;
+}
+.about__info{
+    width: 100%;
+    margin-top: 14px;
+}
+.about__heading{
+    width: 51%;
+    letter-spacing: 0.06em;
+}
+.about__text{
+    width: 71%;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 24px;
+    letter-spacing: 0em;
+}

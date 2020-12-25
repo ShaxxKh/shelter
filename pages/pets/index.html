@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__row row">
+                <a href="../main/index.html" class="header__logo">
+                    <h1 class="logo__name">Cozy House</h1>
+                    <description class="logo__motto">Shelter for pets in Boston</description>
+                </a>
+                <div class="burger__list-wrapper">
+                    <ul class="burger__list">
+                        <li class="burger__list-item">
+                            <a href="../main/index.html" class="burger__link">
+                                About the shelter
+                        </li>
+                        </a>
+                        <li class="burger__list-item list__item--active">
+                            <a href="#" class="burger__link burger__link--active">
+                                Our pets</li>
+                        </a>
+                        <li class="burger__list-item">
+                            <a href="#" class="burger__link">
+                                Help the shelter</li>
+                        </a>
+                        <li class="burger__list-item">
+                            <a href="#" class="burger__link">
+                                Contacts</li>
+                        </a>
+                    </ul>
+                </div>
+                <button class="header__burger burger"><img src="../../assets/images/Burger.svg" alt="burger"
+                        class="burger__icon" /></button>
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <a href="../main/index.html" class="nav__link">
+                            <li class="nav__list-item">About the shelter</li>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <li class="nav__list-item list__item--active">Our pets</li>
+                        </a>
+                        <a href="#" class="nav__link nav__link--disabled">
+                            <li class="nav__list-item">Help the shelter</li>
+                        </a>
+                        <a href="#" class="nav__link nav__link--disabled">
+                            <li class="nav__list-item">Contacts</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__friends friends">
+            <div class="friends__container container">
+                <div class="friends__row row">
+                    <h3 class="friends__heading">
+                        Our friends who<br />are looking for a house
+                    </h3>
+                    <slider class="friends__slider slider">
+                        <div class="slider__items-wrapper">
+                            <div class="slider__item item item--1">
+                                <img src="../../assets/images/pets-katrine.png" alt="Katrine"
+                                    class="item__illustration illustration-1" />
+                                <h4 class="item__name">Katrine</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--2">
+                                <img src="../../assets/images/pets-jennifer.png" alt="Jennifer"
+                                    class="item__illustration illustration-2" />
+                                <h4 class="item__name">Jennifer</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--3">
+                                <img src="../../assets/images/pets-woody.png" alt="Woody"
+                                    class="item__illustration illustration-3" />
+                                <h4 class="item__name">Woody</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--4">
+                                <img src="../../assets/images/pets-sophia.png" alt="Sophia"
+                                    class="item__illustration illustration-4" />
+                                <h4 class="item__name">Sophia</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--5">
+                                <img src="../../assets/images/pets-timmy.png" alt="Timmy"
+                                    class="item__illustration illustration-5" />
+                                <h4 class="item__name">Timmy</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--6">
+                                <img src="../../assets/images/pets-charly.png" alt="Charly"
+                                    class="item__illustration illustration-6" />
+                                <h4 class="item__name">Charly</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--7">
+                                <img src="../../assets/images/pets-scarlet.png" alt="Scarlet"
+                                    class="item__illustration illustration-7" />
+                                <h4 class="item__name">Scarlet</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                            <div class="slider__item item item--8">
+                                <img src="../../assets/images/pets-freddie.png" alt="Freddie"
+                                    class="item__illustration illustration-8" />
+                                <h4 class="item__name">Freddie</h4>
+                                <button class="item__button button button--no-background">
+                                    Learn more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slider__pagination-wrapper pagination-wrapper">
+                            <button class="slider__pagination pagination pagination--double-previous pagination--inactive" disabled>
+                                &lt;&lt;
+                            </button>
+                            <button class="slider__pagination pagination pagination--previous pagination--inactive" disabled>
+                                &lt;
+                            </button>
+                            <button class="slider__pagination pagination pagination--current">
+                                1
+                            </button>
+                            <button class="slider__pagination pagination pagination--next pagination--active">
+                                &gt;
+                            </button>
+                            <button class="slider__pagination pagination pagination--double-next pagination--active">
+                                &gt;&gt;
+                            </button>
+                        </div>
+                    </slider>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__row row">
+                <!-- <div class="footer__grid-container">
+                    <div class="footer__contacts contacts">
+                        <h3 class="contacts__heading">For questions and suggestions</h3>
+                        <span class="contacts__email email"><div class="email__icon"></div>email@shelter.com</span>
+                        <span class="contacts__phone phone"><div class="phone__icon"></div>+13 674 567 75 54</span>
+                    </div>
+                    <div class="footer__location location">
+                        <h3 class="location__heading">We are waiting for your visit</h3>
+                        <span class="location__address address"><div class="location__icon-1"></div>1 Central Street, Boston (entrance from the store)</span>
+                        <span class="location__address address"><div class="location__icon-2"></div>18 South Park, London </span>
+                    </div>
+                    <div class="footer__illustration"><img class="puppy" src="assets/images/footer-puppy.png" alt="puppy"></div>    
+                </div> -->
+
+                <div class="footer__contacts contacts">
+                    <h3 class="contacts__heading">For questions and suggestions</h3>
+                    <a href="mailto:sop.ugc2@gmail.com" class="contacts__email email">
+                        <div class="email__icon"></div>
+                        email@shelter.com
+                    </a>
+                    <a href="tel:+998339530720" class="contacts__phone phone">
+                        <div class="phone__icon"></div>
+                        +13 674 567 75 54
+                    </a>
+                </div>
+                <div class="footer__location location">
+                    <h3 class="location__heading">We are waiting for your visit</h3>
+                    <a href="https://www.google.com/maps/place/41%C2%B019'48.6%22N+69%C2%B015'16.0%22E/@41.330156,69.2538938,19z/data=!3m1!4b1!4m14!1m7!3m6!1s0x38ae8b6fd7ce29f1:0x6e45b1ea5740d6a6!2sJangokh,+Tashkent!3b1!8m2!3d41.3289182!4d69.2527386!3m5!1s0x0:0x0!7e2!8m2!3d41.330156!4d69.2544409"
+                        target="_blank" class="location__address address">
+                        <div class="location__icon-1"></div>
+                        1 Central Street, Boston (entrance from the store)
+                    </a>
+                    <a href="https://www.google.com/maps/place/41%C2%B019'48.6%22N+69%C2%B015'16.0%22E/@41.330156,69.2538938,19z/data=!3m1!4b1!4m14!1m7!3m6!1s0x38ae8b6fd7ce29f1:0x6e45b1ea5740d6a6!2sJangokh,+Tashkent!3b1!8m2!3d41.3289182!4d69.2527386!3m5!1s0x0:0x0!7e2!8m2!3d41.330156!4d69.2544409"
+                        target="_blank" class="location__address address">
+                        <div class="location__icon-2"></div>
+                        18 South Park, London
+                    </a>
+                </div>
+                <div class="footer__illustration">
+                    <img class="puppy" src="../../assets/images/footer-puppy.png" alt="puppy" />
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+h3{
+    font-size: 35px;
+    line-height: 1.3em;
+    font-family: var(--fontPrimary);
+    color: var(--colorDark);
+}
+p{
+    font-size: 15px;
+    line-height: 1.6em;
+    font-size: var(--fontSecondary);
+    color: var(--colorDark);
+}
